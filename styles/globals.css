@@ -14,3 +14,90 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* NAVBAR STYLING  */
+.navbar-s {
+  height: 100vh;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  border-right: #000 1px solid ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-s i {
+  font-size: 40pt;
+  font-weight: 200;
+  -webkit-text-stroke: 3px white;
+}
+
+.navbar-s h5 {
+  transform: rotate(-90deg);
+  font-weight: 600;
+  font-size: 16pt;
+}
+/* NAVBAR STYLING  */
+
+/* DETAILS PAGE  */
+.details-page {
+  width: calc(100% - 80px);
+  height: 100vh;
+  /* background-color: rgb(204, 204, 204); */
+  float: right;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.details-page
+.dets-left {
+  width: 50%;
+  background-color: pink;
+  height: 100vh;
+}
+.details-page
+.dets-right {
+  width: 50%;
+  /* background-color: rgb(202, 29, 58); */
+  height: 100vh;
+}
+.details-page
+.dets-right
+.dets-name {
+  width: 100%;
+  height: 10vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.details-page
+.dets-right
+.dets-name h4 {
+  margin: 0;
+  margin-left: 30px;
+  font-size: 24pt;
+}
+.details-page
+.dets-right
+.dets-name h4
+span {
+  font-weight: 300;
+  color:rgb(184, 183, 183)
+}
+.collapsible {
+  margin-top: 0;
+}
+/* DETAILS PAGE  */
