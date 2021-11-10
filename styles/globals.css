@@ -63,14 +63,18 @@ a {
 .details-page
 .dets-left {
   width: 50%;
-  background-color: pink;
+  /* background-color: pink; */
   height: 100vh;
+  position: relative;
+  border-right: 1px solid #000;
+
 }
 .details-page
 .dets-right {
   width: 50%;
   /* background-color: rgb(202, 29, 58); */
   height: 100vh;
+  position: relative;
 }
 .details-page
 .dets-right
@@ -99,5 +103,43 @@ span {
 }
 .collapsible {
   margin-top: 0;
+}
+.dets-right
+.cta{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(238, 236, 236);
+  position: absolute;
+  bottom: 0;
+  color: rgb(158, 158, 158);
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 20PX;
+}
+
+.dets-left
+.dets-nav {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dets-left
+.dets-nav h2 {
+  font-size: 14pt;
 }
 /* DETAILS PAGE  */
