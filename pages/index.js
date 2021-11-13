@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import DetailsPage from '../components/chics/DetailsPage'
 import SectionOne from '../components/club/SectionOne'
+import LSectionOne from '../components/landing/LSectionOne'
+import LSectionTwo from '../components/landing/LSectionTwo'
 import Navbar from '../components/navbar/Nabar'
 import styles from '../styles/Home.module.css'
 
@@ -17,8 +19,10 @@ export default function Home() {
       </Head> */}
 
       <Navbar />
-      <DetailsPage />
-      <SectionOne />     
+      <LSectionOne />
+      <LSectionTwo />
+      {/* <DetailsPage />
+      <SectionOne />      */}
     </div>
   )
 }

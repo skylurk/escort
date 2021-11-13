@@ -274,3 +274,128 @@ h4{
 }
 
 /* THE CLUB  */
+
+
+/* LANDING PAGE  */
+.l-section-one, 
+.l-section-two {
+  height: 200px;
+  width: calc(100% - 80px);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+}
+
+.l-section-one
+.lso-one,
+.l-section-two
+.lst-one {
+  height: 100vh;
+  width: 33.3%;
+  text-align: center;
+  z-index: 10;
+}
+
+.l-section-one
+.lso-one img, 
+.l-section-two
+.lst-one img{
+  height: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.l-section-one
+.lso-two, 
+.l-section-two
+.lst-two  {
+  height: 100vh;
+  width: 33.3%;
+  text-align: center;
+  z-index: 10;
+
+}
+
+.l-section-one
+.lso-two img,
+.l-section-two
+.lst-two img{
+  height: 70%;
+  transition: all .2s ease-in-out;
+}
+
+.l-section-one
+.lso-three, 
+.l-section-two
+.lst-three {
+  height: 100vh;
+  width: 33.3%;
+  text-align: right;
+  z-index: 10;
+}
+.l-section-one
+.lso-three img,
+.l-section-two
+.lst-three img {
+  height: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.l-section-one
+.text-area,
+.l-section-two
+.text-area {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  background-color: #e4e4e4;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-section-one
+.text-area h4,
+.l-section-two
+.text-area h4 {
+  font-weight: 300;
+  line-height: 10px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.l-section-two
+a{
+  z-index: 20;
+}
+.l-section-two
+.lst-one img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.l-section-two
+.lst-two img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.l-section-two
+.lst-two img {
+  height: 100%;
+}
+.l-section-two
+.lst-three img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.l-section-two
+.text-area{
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+/* LANDING PAGE  */
