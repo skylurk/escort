@@ -61,7 +61,7 @@ a {
 /* DETAILS PAGE  */
 .details-page {
   width: calc(100% - 80px);
-  height: 100vh;
+  height: 80vh;
   /* background-color: rgb(204, 204, 204); */
   /* float: right; */
   box-sizing: border-box;
@@ -74,16 +74,23 @@ a {
 .dets-left {
   width: 50%;
   /* background-color: pink; */
-  height: 100vh;
+  height: 80vh;
   position: relative;
   border-right: 1px solid #000;
-
+  
+  display: flex;
+  justify-content: center;
 }
+.details-page
+.dets-left img {
+  height: 100%;
+}
+
 .details-page
 .dets-right {
   width: 50%;
   /* background-color: rgb(202, 29, 58); */
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 .details-page
@@ -403,6 +410,6 @@ a{
 /* MODAL  */
 .modal {
   width: 90%;
-  max-height: 100vh;
+  max-height: 80vh;
 }
 /* MODAL  */

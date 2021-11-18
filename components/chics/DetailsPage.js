@@ -9,6 +9,8 @@ export default function DetailsPage() {
     return (
         <div className='details-page'>
             <div className="dets-left">
+            <img src="/assets/images/landing_03.png" alt="" />
+
                 <div className="dets-nav">
                     <h2>Prev</h2>
                     <h2>Next</h2>
