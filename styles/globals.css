@@ -399,3 +399,10 @@ a{
   padding-bottom: 50px;
 }
 /* LANDING PAGE  */
+
+/* MODAL  */
+.modal {
+  width: 90%;
+  max-height: 100vh;
+}
+/* MODAL  */
