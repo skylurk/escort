@@ -32,7 +32,6 @@ export default function LSectionTwo() {
                 <img src="/assets/images/slider_03.png" alt="" />
             </div>
 
-            <a className="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
             <div id="modal1" className="modal">
             <div className="modal-content">
