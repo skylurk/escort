@@ -35,7 +35,7 @@ export default function LSectionTwo() {
             <a className="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
             <div id="modal1" className="modal">
-            <div class="modal-content">
+            <div className="modal-content">
                 <DetailsPage />
                 {/* <h4>Modal Header</h4>
                 <p>A bunch of text</p> */}
