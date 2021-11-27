@@ -37,7 +37,103 @@
             height: 100%;
             width: 50%;
             border-left: 1px solid #000;
+            display: flex;
+            flex-direction: column;
+            h4{
+                width: 100%;
+                margin: 0;
+                padding: 20px;
+                text-align: right;
+                padding-right: 80px;
+                margin-bottom: 50px;
+            }
+            h5{
+                margin: 0;
+                font-weight: bold;
+                font-size: 14pt;
+            }
+            .address{
+                height: 150px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                h2{
+                    font-size: 14pt;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                }
+            }
+            .telephone{
+                height: 150px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                h2{
+                    font-size: 14pt;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                }
+            }
+            .online{
+                height: 200px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                h2{
+                    font-size: 14pt;
+                    margin-left: 30px;
+                    margin-top: 20px;
+                }
+            }
           }
+        .com_left{
+            height: 100%;
+            width: 50%;
+            border-left: 1px solid #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            // background-color: red;
+            h4{
+                color: grey;
+                margin-left: 40px;
+            }
+            .dates{
+                height: 350px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+
+                .date_row{
+                    height: 50px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .date_day{
+                        width: 50%;
+                        padding: 10px;
+                        font-weight: 700;
+                    }
+                    .date_time{
+                        width: 50%;
+                        padding: 10px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .service_availability{
+                line-height: 100px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                h5{
+                    font-size: 16pt;
+                    color: grey;
+                }
+            }
+        }
       }
 
       .cso_bottom{
