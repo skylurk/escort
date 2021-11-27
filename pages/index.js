@@ -5,7 +5,7 @@ import SectionOne from '../components/club/SectionOne'
 import LSectionOne from '../components/landing/LSectionOne'
 import LSectionTwo from '../components/landing/LSectionTwo'
 import Navbar from '../components/navbar/Nabar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
@@ -21,6 +21,9 @@ export default function Home() {
       <Navbar />
       <LSectionOne />
       <LSectionTwo />
+      <SectionOne />
+
+      
       {/* <DetailsPage />
       <SectionOne />      */}
     </div>
